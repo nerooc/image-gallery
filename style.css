@@ -19,19 +19,23 @@ div {
 div:nth-child(2n) {
     height: 12em;
 }
+
 div:nth-child(3n) {
     height: 14em;
 }
+
 div:nth-child(4n) {
     height: 16em;
 }
+
 div:nth-child(5n) {
     height: 17em;
 }
+
 div:nth-child(6n) {
     height: 20em;
 }
-    
+
 */
 
 /* GRID */
@@ -66,3 +70,44 @@ div:nth-child(7n) {
 div:nth-child(8n) {
     grid-row: span 2;
 }
+
+*/
+
+/* ROWS (FLEX) */
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+div {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 0.3em;
+    height: 10em;
+    width: 10em;
+    flex-grow: 1;
+}
+
+div:nth-child(2n) {
+    width: 15em;
+}
+
+div:nth-child(2n) {
+    width: 14em;
+}
+
+div:nth-child(4n) {
+    width: 12em;
+}
+
+div:nth-child(5n) {
+    width: 7em;
+}
+
+div:nth-child(6n) {
+    width: 20em;
+}
+
