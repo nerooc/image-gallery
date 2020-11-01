@@ -1,0 +1,68 @@
+/* COLUMN */
+
+/*
+
+body {
+    column-count: 6;
+}
+
+div {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 0.3em;
+    height: 10em;
+    display: inline-block;
+    width: 100%;
+}
+
+div:nth-child(2n) {
+    height: 12em;
+}
+div:nth-child(3n) {
+    height: 14em;
+}
+div:nth-child(4n) {
+    height: 16em;
+}
+div:nth-child(5n) {
+    height: 17em;
+}
+div:nth-child(6n) {
+    height: 20em;
+}
+    
+*/
+
+/* GRID */
+
+/*
+body {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-auto-rows: 10em;
+    grid-auto-flow: dense;
+}
+
+div {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 0.3em;
+    height: 100%;
+    width: 100%;
+}
+
+div:nth-child(6n) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+div:nth-child(7n) {
+    grid-column: span 2;
+}
+
+div:nth-child(8n) {
+    grid-row: span 2;
+}
